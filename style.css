@@ -1,0 +1,54 @@
+body{
+    background-size:cover;
+    background-position: center;
+}
+.heading
+{
+font-family: 'Island Moments', cursive;
+font-weight: bolder;
+font-size: 42px;
+color: ghostwhite;
+width: 100%;
+margin: 0px;
+background-image: linear-gradient(45deg,#006466 , #4d194d);
+height: 50px;
+border:2px solid deepskyblue;
+border-radius: 10px;
+
+}
+b{
+    color:red;
+    font-size: 25px;
+    
+}
+.note{
+    color:white;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+
+#status , #number_of_objects
+{
+font-size: 18px;
+}
+h1{
+    font-family: monospace;
+    box-shadow: 10px 10px 10px rgb(6, 66, 85);
+}
+canvas
+  {
+    border:5px solid black;
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 100px;
+    animation-iteration-count: infinite;
+   
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px rgb(255, 203, 245);}
+  to {box-shadow: 1px 1px 38px rgb(192, 253, 255);}
+}
+
