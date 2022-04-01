@@ -67,11 +67,11 @@ function draw(){
 
              if(objects[i].label == "person"){
                 document.getElementById("status2").innerHTML  =  "Status :Baby found";
-                song.stop();
+                alarm.stop();
              }
              else{
                 document.getElementById("status2").innerHTML = "Status : Baby not found";
-                song.play();
+                alarm.play();
             }
              
         }
